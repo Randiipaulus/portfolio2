@@ -1,0 +1,114 @@
+.body-skills {
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    background: radial-gradient(
+    100% 100% at 50% 50%,
+    rgba(138, 7, 9, 1) 2%,
+    rgba(0, 0, 0, 1) 59%
+  );
+  background-blend-mode: normal;
+}
+
+.title-skills {
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: var(--white);
+}
+
+.icons-skills {
+    width: 160vh;
+    height: 40vh;
+    margin-left: 20vh;
+}
+
+#icons-S {
+    font-size: 85px;
+    border: 2px solid var(--white);
+    border-radius: 100px;
+    padding: 3px;
+    color: var(--white);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#icons-S:hover {
+    font-size: 100px;
+    padding: 5px;
+}
+
+.icon1-S {
+    position: relative;
+    top: 20px;
+    left: 7vh;
+}
+
+.icon2-S {
+    position: relative;
+    top: 18vh;
+    left: 5vh;
+}
+
+.icon3-S {
+    position: relative;
+    top: 5vh;
+    left: 8vh;
+}
+
+.icon4-S {
+    position: relative;
+    top: 20vh;
+    left: 12vh;
+}
+
+.icon5-S {
+    position: relative;
+    top: 6px;
+    left: 30vh;
+}
+
+.icon6-S {
+    position: relative;
+    top: 2vh;
+    left: -5vh;
+}
+
+.icon7-S {
+    position: relative;
+    top: 11vh;
+    left: -3vh;
+}
+
+.icon8-S {
+    position: relative;
+    top: 19vh;
+    left: 5vh;
+}
+
+.icon9-S {
+    position: relative;
+    top: 8vh;
+    left: 5vh;
+}
+
+.icon10-S {
+    position: relative;
+    top: 18vh;
+    left: 10vh;
+}
+
+@media (max-width: 1450px) {
+
+    .icons-skills {
+        margin-left: 0vh;
+    }
+
+}
+
+
+
+
+
+
+
+

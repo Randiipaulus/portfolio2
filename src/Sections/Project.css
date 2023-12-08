@@ -1,0 +1,201 @@
+.body-project {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(
+        237deg,
+        rgba(138, 7, 9, 1) 30.5%,
+        rgba(0, 0, 0, 1) 31.5%
+      );
+}
+
+.title-project {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 4rem;
+    padding-top: 5vh;
+    color: var(--white);
+}
+
+.all-project {
+    display: block;
+    width: 190vh;
+    height: auto;
+    margin-left: 15vh;
+    padding-bottom: 5vh;
+}
+
+.project-self {
+    display: flex;
+    width: 70rem;
+    margin-left: 25vh;
+    margin-bottom: 5rem;
+    color: var(--white);
+}
+
+.pic-project {
+    width: 55rem;
+    height: 20rem;
+    overflow: hidden;
+    align-items: center;
+}
+
+.photo-project {
+    width: auto;
+    height: 20rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.photo-project:hover {
+    transform: scale(1.1);
+}
+
+.info-project {
+    display: block;
+    width: 35rem;
+    margin-left: 5vh;
+    margin-top: 8vh;
+}
+
+.name-project {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 2vh;
+    margin-top: -3vh;
+    margin-left: -3vh;
+}
+
+.descrip-project {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 3vh;
+    margin-left: 5vh;
+}
+
+.btn-projects {
+    font-size: 20px;
+    display: flex;
+}
+
+/* git button  */
+
+.git-project {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: rgb(241, 241, 241);
+    background-color: rgb(33, 33, 33);
+    margin-right: 4vh;
+    margin-left: 5vh;
+   }
+   
+   .git-project:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   }
+   
+   .git-project:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   .git-project::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .8s;
+   }
+   
+   .git-project::after {
+    background-color: #fff;
+   }
+   
+   .git-project:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+
+/* live button  */
+
+.live-projects {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: var(--white);
+   }
+   
+   .live-projects:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   }
+   
+   .live-projects:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   .live-projects::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .8s;
+   }
+   
+   .live-projects::after {
+    background-color: #ffffff;
+   }
+   
+   .live-projects:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+
+
+   @media (max-width: 1450px) {
+
+    .project-self {
+        margin-left: 6vh;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

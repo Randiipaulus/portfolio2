@@ -1,0 +1,137 @@
+.all-home {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -13vh;
+    background: linear-gradient(
+        50deg,
+    rgba(138, 7, 9, 1) 35%,
+    rgba(0, 0, 0, 1) 36%
+  );
+  background-position: center;
+  background-size: cover;
+}
+
+.body-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 10vh;
+    left: 14rem;
+}
+
+.pic-home {
+    box-shadow: 0  0 25px 20px rgba(0, 0, 0, 0.3);
+    width: 34rem;
+    height: 45rem;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.me-home {
+    width: auto;
+    height: 45rem;
+    border-radius: 10px;
+}
+
+.set-home {
+    display: block;
+    margin-left: 11rem;
+    width: 38rem;
+    height: auto;
+    margin-top: 20vh;
+}
+
+.title-home {
+    font-size: 35px;
+    margin-bottom: 5vh;
+    color: white;
+}
+
+.text-home {
+    font-size: 20px;
+    margin-bottom: 5vh;
+    color: white;
+}
+
+.btns-home {
+    font-size: 20px;
+    display: flex;
+}
+
+.link-home {
+    margin-right: 5vh;
+}
+
+#button {
+    cursor: pointer;
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: rgb(237, 236, 236);
+    color: black;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   #button:hover {
+    letter-spacing: 3px;
+    background-color: var(--black);
+    color: hsl(0, 0%, 100%);
+    box-shadow: var(--ligthred) 0px 0px 27px 10px;
+   }
+   
+   #button:active {
+    letter-spacing: 3px;
+    background-color: var(--red);
+    color: hsl(0, 0%, 100%);
+    box-shadow: var(--ligthred) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+
+
+   @media (max-width: 1595px) {
+
+    .set-home {
+        margin-left: 50px;
+    }
+
+   }
+
+   @media (max-width: 1448px) {
+
+    .set-home {
+        width: 30rem;
+    }
+
+    .pic-home {
+        margin-left: -6vh;
+    }
+
+}
+
+   @media (max-width: 1310px) {
+
+    .pic-home {
+        width: 28rem;
+        height: 38rem;
+    }
+
+    .me-home {
+        width: 28rem;
+        height: 38rem;
+    }
+
+}
+
+
+
+
+
+
+

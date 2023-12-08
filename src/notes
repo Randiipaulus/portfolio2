@@ -1,0 +1,18 @@
+/* 
+        <FaHome />
+        <IoIosPerson />
+        <FaFolderOpen />
+        <FaNewspaper />
+        <PiProjectorScreenChartBold />
+        <MdFolderShared /> 
+        
+         <ul className="list-nav">
+                    <li className="tooltip">Home</li>
+                    <li className="tooltip">About</li>
+                    <li className="tooltip">Skills</li>
+                    <li className="tooltip">Education & Experience</li>
+                    <li className="tooltip">Projects</li>
+                    <li className="tooltip">Contact Me</li>
+                </ul>
+                
+                */
